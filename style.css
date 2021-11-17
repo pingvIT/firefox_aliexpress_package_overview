@@ -1,0 +1,31 @@
+#order_tracker {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#order_tracker .mailNo {
+    font-weight: bold;
+}
+
+
+#order_tracker .package {
+    padding: 0.8em;
+    background: #eee;
+    margin-bottom: 8px;
+    border-radius: 1px;
+}
+#order_tracker .order_imgs {
+    background: #777;
+    padding: 10px !important;
+    margin-top: 5px;
+    border-radius: 3px;
+}
+
+#order_tracker .order_imgs > div {
+    margin-right: 5px;
+    text-align: center;
+}
+
+#order_tracker .order_imgs img {
+    border-radius: 2px;
+}

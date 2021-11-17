@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "AliExpress Tracking Number Extractor",
+  "version": "1.0",
+
+  "description": "Tries to get the tracking numbers of all your orders",
+
+  "icons": {
+    "48": "icons/truck.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://trade.aliexpress.com/orderList.*"],
+      "js": ["script.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "permissions": [
+    "webRequest",
+    "<all_urls>"
+  ]
+}
+
