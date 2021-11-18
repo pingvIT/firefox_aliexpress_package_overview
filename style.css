@@ -15,10 +15,11 @@
     border-radius: 1px;
 }
 #order_tracker .order_imgs {
-    background: #777;
+    background: #ccc;
     padding: 10px !important;
     margin-top: 5px;
     border-radius: 3px;
+    box-shadow: inset 0 0 2px #000;
 }
 
 #order_tracker .order_imgs > div {
