@@ -18,7 +18,7 @@
   ],
   "permissions": [
     "webRequest",
-    "<all_urls>"
+    "https://ilogisticsaddress.aliexpress.com/ajax_logistics_track.htm?*"
   ]
 }
 
