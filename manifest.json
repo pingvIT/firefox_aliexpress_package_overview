@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "AliExpress Package Overview",
-  "version": "1.0",
+  "version": "1.0.1",
 
   "description": "Shows an overview over your aliexpress packages.",
 
